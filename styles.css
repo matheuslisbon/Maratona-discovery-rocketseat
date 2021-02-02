@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  background: #f0f2f5;
+  background: #0B9ED9;
   font-family:'Poppins', sans-serif
 }
 
@@ -80,6 +80,11 @@ button:hover {
 .button.new {
   display: inline-block;
   margin-bottom: .8rem;
+  background: white;
+  padding: 9px;
+  border-radius: 4px;
+  font-weight: 600;
+
 }
 
 .button.cancel {
@@ -92,7 +97,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  
   opacity: 0.6;
 }
 
@@ -102,19 +107,21 @@ button:hover {
 
 /* Header ===================== */
 header {
-  background: #2D4A22;
+  background: #45007F;
   padding: 2rem 0 10rem;
   text-align: center;
 }
 
 #logo {
   color: #fff;
-  font-weight: 100;
+  font-weight: 100;  
 }
-
+.img-logo{
+  width: 55%;
+}
 /* Balance ===================== */
 #balance {
-  margin-top: -8rem;
+  margin-top: -5rem;
 }
 
 #balance h2 {
@@ -187,7 +194,7 @@ table thead th {
 }
 
 table tbody tr {
-  opacity: 0.7
+  opacity: 0.9
 }
 
 table tbody tr:hover {
@@ -209,6 +216,7 @@ td.income {
 
 td.expense {
   color: #e92929;
+  
 }
 
 /* Modal ===================== */
@@ -288,7 +296,7 @@ footer {
   text-align: center;
   padding: 4rem 0 2rem;
   color: var(--dark-blue);
-
+  font-size: 17px;
   opacity: 0.6;
 }
 
